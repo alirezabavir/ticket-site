@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.contact-us-btn {
+    font-weight: bold;
+}
+
+.banner-img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.banner-section {
+    margin: 120px 0;
+}
+
+.cards-indroduce-section {
+    margin: 120px 0;
+}
