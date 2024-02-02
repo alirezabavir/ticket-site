@@ -33,3 +33,14 @@ a {
 .cards-indroduce-section {
     margin: 120px 0;
 }
+
+.place-introduce-section i img {
+    width: 3rem;
+    height: 3rem;
+}
+.place-introduce-items{
+    line-height: 3;
+}
+.place-introduce-items p{
+    font-weight: bold;
+}
