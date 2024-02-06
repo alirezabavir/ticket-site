@@ -38,9 +38,31 @@ a {
     width: 3rem;
     height: 3rem;
 }
-.place-introduce-items{
+
+.place-introduce-items {
     line-height: 3;
 }
-.place-introduce-items p{
+
+.place-introduce-items p {
     font-weight: bold;
+}
+
+.pics-introduce-section {}
+
+.right-arrow {
+    margin-top: 200px;
+}
+
+.choose-place-section {
+    background: url("images/black-elegant-background-with-copy-space.jpg") no-repeat center center / cover;
+}
+.articles-left-side ul li{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 5px;
+    
+}
+.articles-left-side ul li:last-child{
+    border-bottom: 1px solid black;
 }
