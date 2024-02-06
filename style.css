@@ -56,13 +56,60 @@ a {
 .choose-place-section {
     background: url("images/black-elegant-background-with-copy-space.jpg") no-repeat center center / cover;
 }
-.articles-left-side ul li{
+
+.articles-left-side ul li {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
     padding: 5px;
-    
+
 }
-.articles-left-side ul li:last-child{
+
+.articles-left-side ul li:last-child {
     border-bottom: 1px solid black;
+}
+
+.feedback-section .container {
+    position: relative;
+}
+
+.customer-previous-btn {
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+
+.customer-next-btn {
+    position: absolute;
+    top: 60%;
+    right: 6%;
+}
+
+.newsletter-form input {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.newsletter-form textarea {
+    margin-top: 10px;
+    ;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-top: 10px;
+}
+.footer-section {
+    background-image: url("images/footer-background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
