@@ -14,9 +14,9 @@
     </head>
     <body>
         <header>
-            <div class="container">
+            <div class="container bg-white">
                 <div class="nav-section d-flex justify-content-between mt-5">
-                    <nav class="nav">
+                    <nav class="nav d-none d-md-flex">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Home</a>
                         </li>
@@ -31,14 +31,25 @@
                         </li>
                     </nav>
                     <button
-                        class="contact-us-btn px-4 bg-transparent border-1 rounded"
+                        class="contact-us-btn px-4 bg-transparent border-1 rounded d-none d-md-inline"
                         type="button"><a
                             href="#">Contact
                             Us</a></button>
+                    <a href="#" class="d-md-none d-sm-flex">Your Logo</a>
+                    <button class="btn nav-toggler d-sm-flex d-md-none"><i
+                            class="fa-solid fa-bars openIcon"></i><i
+                            class="fa-solid fa-close d-none closeIcon"></i></button>
                 </div>
+                <nav
+                    class="navbar nav-small d-none d-md-none flex-column  mt-3 list-unstyled">
+                    <li class="py-2"><a href="#">Home</a></li>
+                    <li class="py-2"><a href="#">Guides</a></li>
+                    <li class="py-2"><a href="#">Fights</a></li>
+                    <li class="py-2"><a href="#">About</a></li>
+                </nav>
                 <div class="banner-section">
                     <div
-                        class="row d-flex justify-content-center align-items-center">
+                        class="row d-flex justify-content-center align-items-center ">
                         <div
                             class="col-sm-12 col-md-5">
                             <h1>Travel your dream destination</h1>
@@ -47,10 +58,10 @@
                                 deleniti ipsum consequuntur accusamus alias
                                 numquam quibusdam ut dicta?</p>
                             <button type="button"
-                                class="btn bg-dark text-white px-3">Reserve
+                                class="btn bg-dark text-white px-3  ">Reserve
                                 Ticket</button>
                         </div>
-                        <div class="col-sm-12 col-md-7">
+                        <div class="col-sm-12 col-md-7 mt-5 mt-md-0">
                             <img class="banner-img img-fluid rounded"
                                 src="images/banner.jpg"
                                 alt>
@@ -130,17 +141,18 @@
             </div>
             <div class="pics-introduce-section mt-5">
                 <div class="container">
-                    <div class="row">
-                        <div class="pics-introduce-left-side col-5">
+                    <div class="row ">
+                        <div
+                            class="pics-introduce-left-side col-5 d-none d-md-flex">
                             <img src="images/mountain-trees.jpg"
                                 class="img-fluid" alt>
                         </div>
                         <div
-                            class="pics-introduce-right-side col-7">
+                            class="pics-introduce-right-side col-md-7 col-sm-12">
                             <img src="images/mountain-trees-2.jpg"
                                 class="img-fluid w-50" alt>
                             <div
-                                class="d-flex justify-content-center align-items-center mt-5">
+                                class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5">
                                 <h1>Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Similique, rem.</h1>
                                 <p>
@@ -191,9 +203,9 @@
             </div>
             <div class="articles-section mt-5">
                 <div class="container">
-                    <div class="row">
+                    <div class="row ">
                         <div
-                            class="col-8 articles-left-side d-flex flex-column justify-content-center">
+                            class="col-12 col-md-8 articles-left-side d-flex flex-column justify-content-center">
                             <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                             <ul class="list-group list-unstyled mt-5">
                                 <li>Lorem ipsum dolor sit amet consectetur,
@@ -210,7 +222,7 @@
                                         class="fa-solid fa-plus"></i></li>
                             </ul>
                         </div>
-                        <div class="col-4 articles-right-side">
+                        <div class="col-4 d-none d-md-inline articles-right-side">
                             <img class="img-fluid"
                                 src="images/male-striped-coat-walking-field-with-tall-grass-near-sea.jpg"
                                 alt>
@@ -221,12 +233,12 @@
             <div class="feedback-section mt-5">
 
                 <div class="container">
-                    <div class="text-center ">
+                    <div class="text-center">
                         <h1>Here`s what they have to say...</h1>
                     </div>
                     <div class="row justify-content-center mt-5">
                         <div
-                            class="card col-3 border-dark py-2 m-0 text-center">
+                            class="card col-12 col-md-3 border-dark py-2 mt-5 mt-md-0 text-center">
                             <img class="img-fluid" src="images/customer-1.png"
                                 alt>
                             <div class="card-body mt-2">
@@ -238,7 +250,7 @@
                             </div>
                         </div>
                         <div
-                            class="card col-3 border-dark  py-2 mx-5 text-center">
+                            class="card col-12 col-md-3 border-dark  py-2 mx-5 mt-5 mt-md-0 text-center">
                             <img class="img-fluid" src="images/customer-2.png"
                                 alt>
                             <div class="card-body mt-2">
@@ -250,7 +262,7 @@
                             </div>
                         </div>
                         <div
-                            class="card col-3 border-dark py-2 m-0 text-center">
+                            class="card col-12 col-md-3 border-dark py-2 mt-5 mt-md-0 text-center">
                             <img class="img-fluid" src="images/customer-3.png"
                                 alt>
                             <div class="card-body mt-2">
@@ -263,18 +275,18 @@
                         </div>
                     </div>
                     <button
-                        class="btn customer-previous-btn bg-white border-dark"><i
+                        class="btn customer-previous-btn bg-white border-dark d-none d-md-inline"><i
                             class="fa-solid fa-arrow-left text-dark"></i></button>
 
                     <button
-                        class="btn customer-next-btn bg-white border-dark"><i
+                        class="btn customer-next-btn bg-white border-dark d-none d-md-inline"><i
                             class="fa-solid fa-arrow-right text-dark"></i></button>
                 </div>
             </div>
             <div class="newsletter-section mt-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-md-5 col-12">
                             <form action="#"
                                 class="newsletter-form d-flex flex-column justify-content-between align-items-between">
                                 <h1>Be updated!</h1>
@@ -290,7 +302,7 @@
                                     type="submit">Submit</button>
                             </form>
                         </div>
-                        <div class="col-7">
+                        <div class="col-12 col-md-7 mt-3 mt-md-0">
                             <img class="img-fluid"
                                 src="images/travel-trekking-summer-landscape-mountains-green-grass-trees-blue-sky.jpg"
                                 alt>
@@ -303,10 +315,10 @@
             <div class="footer-section  mt-5 py-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-2">
                             <h1>My Log Travels</h1>
                         </div>
-                        <div class="col-10">
+                        <div class="col-12- col-md-10">
                             <h5>Quick Links</h5>
                             <div class="row">
                                 <div class="col-3">

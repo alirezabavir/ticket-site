@@ -14,6 +14,15 @@ a {
     color: black !important;
 }
 
+.nav-section {
+    position: relative;
+}
+
+.nav-small {
+    position: absolute;
+    transform: translatex(-500px);
+}
+
 .active {
     font-weight: bold;
 }
@@ -107,8 +116,9 @@ a {
 .footer-section ul li {
     margin-top: 10px;
 }
+
 .footer-section {
-    background-image: url("images/footer-background.jpg") ;
+    background-image: url("images/footer-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
